@@ -10,6 +10,7 @@ class Simulation {
     public:
         Simulation( int width, int height, int numPoints);
         void run();
+        void addGalaxy(double centreX, double centreY, double vx, double vy, double blackHoleMass, double numPoints, int width, int height);
     private:
         void update();
         void render();

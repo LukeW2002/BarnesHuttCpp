@@ -8,6 +8,6 @@ namespace Constants {
     constexpr int width = 1366;
     constexpr int height = 768;
     constexpr int defaultNumPoints = 2000;
-    constexpr int quadTreeDepth = 10;
+    constexpr int quadTreeDepth = 5;
 }
 #endif 
